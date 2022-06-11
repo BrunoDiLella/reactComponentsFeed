@@ -16,7 +16,6 @@ const posts = [
       },
       content: [
          {type: 'paragraph', content: 'Olá, meu nome é Bruno Gonçalves e eu sou um desenvolvedor Front-End.'},
-         {type: 'paragraph', content: 'Eu estou estudando para ser um desenvolvedor Front-End.'},
          {type: 'Link', content: 'https://github.com/BrunoDiLella'},
       ],
       publishedAt: new Date('2022-05-3 20:00:00'),
@@ -24,13 +23,12 @@ const posts = [
    {
       id: 2,
       author: {
-         avatarUrl: "https://github.com/Erick-medeiros.png",
+         avatarUrl: "https://github.com/Tripouille.png",
          name: 'Pedro Parque',
          role: 'opa',
       },
       content: [
          {type: 'paragraph', content: 'Olá, meu nome é Pedro e eu sou um desenvolvedor Front-End.'},
-         {type: 'paragraph', content: 'Eu estou estudando para ser um desenvolvedor Front-End.'},
       ],
       publishedAt: new Date('2022-05-3 22:00:00'),
    }
